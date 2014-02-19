@@ -1,4 +1,6 @@
 Dashboard::Application.routes.draw do
+  resources :incidentes
+
   resources :prioridades
 
   resources :tipo_incidentes
